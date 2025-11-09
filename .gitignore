@@ -1,0 +1,33 @@
+# Ignore build artifacts and outputs
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# Image outputs and experiments
+*.pgm
+*.exp
+
+# CUDA-specific
+*.ptx
+
+# OS and editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# OneDrive / personal caches (adjust if needed)
+**/OneDrive/**
+*.personal
+
+# Ignore compiled Python and caches (if any)
+__pycache__/
+*.pyc
+
+# Keep README, LICENSE and source code tracked
+!README.md
+!LICENSE
+!*.cu
+!*.h
