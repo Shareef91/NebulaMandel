@@ -8,6 +8,7 @@
 # Image outputs and experiments
 *.pgm
 *.exp
+csc473a3-202560.pdf
 
 # CUDA-specific
 *.ptx
